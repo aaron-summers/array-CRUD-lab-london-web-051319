@@ -15,11 +15,11 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  children_of_thanos.pop
+  nebula = children_of_thanos.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  gamora = children_of_thanos.
 end
 
 def retrieve_element_from_index(array, index_number)
