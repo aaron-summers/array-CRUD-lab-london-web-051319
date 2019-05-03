@@ -19,18 +19,17 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  gamora = children_of_thanos.shift
+  gamora = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  array = children_of_thanos
   array[index_number]
 end
 
 def retrieve_first_element_from_array(array)
-  children_of_thanos[0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  children_of_thanos[-1]
+  array[-1]
 end
