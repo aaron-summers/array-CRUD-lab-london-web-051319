@@ -11,11 +11,11 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  children_of_thanos.unshift("Gamora")
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  nebula = children_of_thanos.pop
+  nebula = array.pop
 end
 
 def remove_element_from_start_of_array(array)
